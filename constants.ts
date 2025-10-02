@@ -4,17 +4,20 @@ import { Vehicle } from './types';
 export const VEHICLES_DATA: Vehicle[] = [
   {
     id: 1,
-    title: 'Fiat Uno Mille Economy 2013',
+    title: 'Fiat Palio Celebration 1.0 Fire Flex 8V 4P 2009',
     brand: 'Fiat',
     model: 'Uno Mille Economy',
-    year: 2013,
-    price: 23500,
-    options: ['Vidros Elétricos', 'Travas Elétricas', 'Alarme', 'Som Básico'],
+    year: 2009,
+    price: 26900,
+    options: ['Manual', 'Chave Reserva'],
     images: [
-      'https://picsum.photos/seed/car1-1/800/600',
-      'https://picsum.photos/seed/car1-2/800/600',
-      'https://picsum.photos/seed/car1-3/800/600',
-      'https://picsum.photos/seed/car1-4/800/600',
+      '/imagens/1/1.jpg',
+      '/imagens/1/2.jpg',
+      '/imagens/1/3.jpg',
+      '/imagens/1/4.jpg',
+      '/imagens/1/5.jpg',
+      '/imagens/1/6.jpg'
+
     ],
   },
   {
